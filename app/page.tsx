@@ -1,3 +1,4 @@
+import Counter from "./components/Counter";
 import Avatar from "./components/Avatar";
 import LinkButton from "./components/LinkButton";
 import Footer from "./components/Footer";
@@ -29,7 +30,7 @@ export default function Home() {
           emoji="💬"
           label="WhatsApp"
         />
-
+        <Counter />
         <Footer />
 
       </div>
