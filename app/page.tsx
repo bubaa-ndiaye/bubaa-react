@@ -1,7 +1,8 @@
-import Counter from "./components/Counter";
 import Avatar from "./components/Avatar";
 import LinkButton from "./components/LinkButton";
 import Footer from "./components/Footer";
+import Counter from "./components/Counter";
+import ProfileCard from "./components/ProfileCard";
 
 export default function Home() {
   return (
@@ -14,6 +15,12 @@ export default function Home() {
           BUBAA
         </h1>
         <p className="text-gray-400 mb-8">Retrouve-moi sur mes réseaux</p>
+
+        <ProfileCard
+          name="Babs Ndiaye"
+          description="Developpeur Web · Senegal 🇸🇳"
+          emoji="👨‍💻"
+        />
 
         <LinkButton
           href="https://www.facebook.com/babs.ndiaye.5477/"
@@ -30,6 +37,7 @@ export default function Home() {
           emoji="💬"
           label="WhatsApp"
         />
+
         <Counter />
         <Footer />
 
